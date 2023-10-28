@@ -1,0 +1,30 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  meta: {
+    title: '中赋能云商科技',
+    meta: [
+        { charset: 'utf-8' },
+        {
+            name: 'viewport',
+            content: 'width=device-width, initial-scale=1, user-scalable=0',
+        },
+      
+    ],
+
+},
+
+  devtools: { enabled: false },
+  plugins: [
+    '@/plugins/antd.ts'
+  ],
+  ssr:true,
+  build: {
+    postcss: {
+      preset: {
+        features: {
+          customProperties: false
+        }
+      }
+    }
+  }
+})
