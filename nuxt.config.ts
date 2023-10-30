@@ -17,6 +17,10 @@ export default ({
   plugins: [
     '@/plugins/antd.ts'
   ],
+  css: [
+    // 导入Sass文件
+    '@/assets/main.scss'
+  ],
 
   ssr:true,
   build: {
