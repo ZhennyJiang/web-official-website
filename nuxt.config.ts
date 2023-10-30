@@ -12,11 +12,12 @@ export default ({
     ],
 
 },
-
+  buildModules: ['@nuxt/typescript-runtime'],
   devtools: { enabled: false },
   plugins: [
     '@/plugins/antd.ts'
   ],
+
   ssr:true,
   build: {
     postcss: {
