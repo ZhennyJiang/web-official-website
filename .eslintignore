@@ -1,0 +1,6 @@
+/dist/*
+/node_modules/*
+**/*.ts
+**/*.md
+**/*.yaml
+**/*.json

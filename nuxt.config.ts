@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default ({
   meta: {
     title: '中赋能云商科技',
     meta: [
