@@ -12,17 +12,21 @@ export default ({
     ],
 
 },
+
   buildModules: ['@nuxt/typescript-runtime'],
   devtools: { enabled: false },
+
   plugins: [
     '@/plugins/antd.ts'
   ],
+
   css: [
     // 导入Sass文件
     '@/assets/main.scss'
   ],
 
   ssr:true,
+
   build: {
     postcss: {
       preset: {
@@ -31,5 +35,7 @@ export default ({
         }
       }
     }
-  }
-})
+  },
+
+  modules: ["@nuxtjs/tailwindcss"]
+});
