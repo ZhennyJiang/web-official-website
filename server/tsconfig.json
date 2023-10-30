@@ -20,5 +20,5 @@
   },
 
   "include": ["router/**/*.ts", "/**/*.vue", "/**/*.ts"],
-  "exclude": [".nuxt"]
+  "exclude": [".nuxt","node_modules"]
 }
